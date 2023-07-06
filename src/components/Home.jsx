@@ -1,4 +1,3 @@
-import React from 'react';
 import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 import profileImage from '../assets/my-picture.png'
 import { Link } from 'react-scroll';

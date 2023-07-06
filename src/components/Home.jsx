@@ -2,6 +2,8 @@ import React from 'react';
 import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 import profileImage from '../assets/my-picture.png'
 import { Link } from 'react-scroll';
+import Typical from 'react-typical';
+
 
 
 
@@ -13,15 +15,35 @@ const Home = () => {
         >
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full w-full'>
-                    <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                        I'm a Full Stack Developer 
+                    <h2 className=' sm:text-7xl font-bold text-white'>
+                        I'm a 
+                        <span className='text-3xl'>
+                       
+                            <Typical
+                                loop={Infinity}
+                                steps={[
+                                    " Full Stack Developer  💯",
+                                    1000,
+                                    
+                                    " Enthusiastic Dev  😍",
+                                    1000,
+                                    " MERN Stack Developer  ✌️",
+                                    1000,
+                                    " React Stack Developer 🎇 ",
+                                    1000,
+                                    " Full Stack Developer ❤️",
+                                    1000,
+
+                                ]}
+                            />
+                        </span>
                     </h2>
-                    <p className=' text-gray-500 py-4 max-w-md'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis nulla quam vel explicabo, aliquid aut itaque ratione sunt nihil exercitationem ullam sit quaerat dolorem velit a quidem soluta blanditiis ex est minima at earum odio quibusdam! Facilis fugit perspiciatis ratione.
+                    <p className=' text-2xl text-gray-500 py-4 max-w-md'>
+                       Knock of building applications with front and back end operations.
                     </p>
                     <div>
-                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3  my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-                            Portfolio 
+                        <Link to='contact' smooth duration={500} className='group text-white w-fit px-6 py-3  my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                            Hire Me. 
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdOutlineKeyboardDoubleArrowRight size={30}
                                 className='ml-1'/>

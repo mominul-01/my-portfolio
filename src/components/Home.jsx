@@ -1,10 +1,6 @@
 import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 import profileImage from '../assets/my-picture.png'
 import { Link } from 'react-scroll';
-import Typical from 'react-typical';
-
-
-
 
 const Home = () => {
     return (
@@ -17,24 +13,8 @@ const Home = () => {
                     <h2 className=' sm:text-7xl font-bold text-white'>
                         I'm a 
                         <span className='text-3xl'>
-                       
-                            <Typical
-                                loop={Infinity}
-                                steps={[
-                                    " Full Stack Developer  💯",
-                                    1000,
-                                    
-                                    " Enthusiastic Dev  😍",
-                                    1000,
-                                    " MERN Stack Developer  ✌️",
-                                    1000,
-                                    " React Stack Developer 🎇 ",
-                                    1000,
-                                    " Full Stack Developer ❤️",
-                                    1000,
-
-                                ]}
-                            />
+                            <br />
+                            MERN Stack Developer..
                         </span>
                     </h2>
                     <p className=' text-2xl text-gray-500 py-4 max-w-md'>

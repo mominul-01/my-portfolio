@@ -1,11 +1,7 @@
-import React from 'react';
-import picture from '../assets/profile-pic.png';
-
 import baikar_zone from '../assets/portfolio/baikar-zone.png';
 import best_five from '../assets/portfolio/best-five.png';
 import dream_tech from '../assets/portfolio/dream-tech.png';
 import ecommerce from '../assets/portfolio/ecommerce.png';
-import food_network from '../assets/portfolio/food-network.png';
 import football_team from '../assets/portfolio/football-team.png';
 import  penguin_fashion from '../assets/portfolio/penguin fashion.png';
 
@@ -44,8 +40,8 @@ const Portfolio = () => {
 
     return (
         <div
-            name="portfolio"
-            className=' bg-gradient-to-b from-black to-gray-800 w-full text-white '
+            name="project"
+            className=' bg-gradient-to-b from-gray-800 to-black w-full text-white '
         >
 
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
@@ -54,15 +50,15 @@ const Portfolio = () => {
 
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500' > 
-                        Portfolio
+                        Project
                     </p>
-                    <p className='py-6'>
+                    <p className='py-5'>
                         Check out some of my work right here
                     </p>
 
                 </div>
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 py-12 sm:px-0 mb-9'  >
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 py-5 sm:px-0 mb-9'  >
 
                 {
                     portfolios.map(({ id,src }) => (

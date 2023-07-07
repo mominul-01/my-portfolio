@@ -1,7 +1,7 @@
-import React from 'react';
+
 import about_image from '../assets/portfolio/fb-profile-removebg.png'
-import { FaPhone, FaSkype, FaTelegram, FaUser, FaUserAlt } from 'react-icons/fa';
-import { MdMail, MdOutlineAlternateEmail } from 'react-icons/md';
+import { FaPhone, FaSkype } from 'react-icons/fa';
+import { MdMail } from 'react-icons/md';
 
 
 const About = () => {
@@ -10,9 +10,9 @@ const About = () => {
             className='w-full bg-gradient-to-b from-gray-800 to-black text-white  pt-10'>
             <div className='w-full  flex flex-col  max-w-screen-lg  lg:flex-row mx-auto px-8 md:px-10 gap-10 lg:gap-20 pb-10 '>
             
-                <div className='w-full md:h-[290] lg:w-1/3 flex flex-col items-center border border-gray-200 dark:bg-transparent rounded-md'>
+                <div className='w-full md:h-[250] lg:w-2/3 flex flex-col items-center border border-gray-200 dark:bg-transparent rounded-md'>
                     <img src={about_image} alt="this is my picture"
-                            className='h-[290] p-1 rounded-md ease-in-out duration-300 hover:scale-125' />
+                            className='h-[250] p-1 rounded-md ease-in-out duration-300 hover:scale-125' />
                 </div>
                
                 <div className='w-full flex flex-col'>
@@ -32,7 +32,7 @@ const About = () => {
                         </p>
 
                     </div>
-                    <div className='mt-5 2xl:mt-10 flex flex-wrap gap-5'>
+                    <div className='mt-2 2xl:mt-5 flex flex-wrap gap-5'>
                         <p className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 bg-[#040alc] text-white cursor-auto'>
                             <MdMail size={20}/> mominul.cse21@gmail.com
                         </p>

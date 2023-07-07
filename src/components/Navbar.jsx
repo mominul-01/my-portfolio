@@ -1,33 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import { links } from '../../public/data';
 
 
 const Navbar = () => {
 
     const [nav, setNav] = useState(false);
-    const links = [
-        {
-            id: 1,
-            link: 'home'
-        },
-        {
-            id: 2,
-            link: 'about'
-        },
-        {
-            id: 3,
-            link: 'portfolio'
-        },
-        {
-            id: 4,
-            link: 'experience'
-        },
-        {
-            id: 5,
-            link: 'contact'
-        },
-    ]
+   
     return (
 
         <div  className='flex justify-between items-center w-full h-20 text-white bg-black fixed px-4'>

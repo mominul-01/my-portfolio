@@ -5,6 +5,7 @@ import Experience from './components/Experience'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
+import Skill from './components/Skill'
 import SocialLink from './components/SocialLink'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <SocialLink />
       <About />
+      <Skill/>
       <Portfolio />
       <Experience />
       <Contact/>

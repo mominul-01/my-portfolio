@@ -1,5 +1,15 @@
 import React from 'react';
 import picture from '../assets/profile-pic.png';
+
+import baikar_zone from '../assets/portfolio/baikar-zone.png';
+import best_five from '../assets/portfolio/best-five.png';
+import dream_tech from '../assets/portfolio/dream-tech.png';
+import ecommerce from '../assets/portfolio/ecommerce.png';
+import food_network from '../assets/portfolio/food-network.png';
+import football_team from '../assets/portfolio/football-team.png';
+import  penguin_fashion from '../assets/portfolio/penguin fashion.png';
+
+
 import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 
 const Portfolio = () => {
@@ -8,27 +18,27 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: picture
+            src: penguin_fashion
         },
         {
             id: 2,
-            src: picture
+            src: football_team
         },
         {
             id: 3,
-            src: picture
+            src: baikar_zone
         },
         {
             id: 4,
-            src: picture
+            src: dream_tech
         },
         {
             id: 5,
-            src: picture
+            src: best_five
         },
         {
             id: 6,
-            src: picture
+            src: ecommerce
         },
     ]
 

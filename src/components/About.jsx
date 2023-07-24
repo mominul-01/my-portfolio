@@ -19,7 +19,7 @@ const About = () => {
                     <p className='text-4xl font-bold  '>
                         About</p>
 
-                    <p className='text-lg leading-10 text-black dark:text-gray-400'>
+                    <p className='text-lg leading-10 text-white mt-5 dark:text-gray-400'>
                         Full-Stack Web Developer with ability to learn and collaborate in rapidly changing environments and compositions. Worked through hours of bootcamp structure, learning JavaScript, NodeJs, ReactJs,NextJs, and TypeScript. Eager to tackle web development/design challenges to achieve lasting impacts on user experience..
 
                     </p>

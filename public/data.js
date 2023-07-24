@@ -85,22 +85,22 @@ import {
   export const skills = [
     {
       name: "ReactJs",
-      value: 98,
+      value: 70,
       icon: Reactjs,
     },
     {
       name: "NodeJs",
-      value: 96,
+      value: 5,
       icon: Nodejs,
     },
     {
       name: "NextJs",
-      value: 97,
+      value: 5,
       icon: Nextjs,
     },
     {
       name: "MongoDB",
-      value: 98,
+      value: 40,
       icon: Mongodb,
     },
     {
@@ -120,7 +120,7 @@ import {
     },
     {
       name: "Python",
-      value: 78,
+      value: 50,
       icon: Python,
     },
   ];
@@ -177,7 +177,8 @@ import {
     },
   ];
   
-  export const softskills = [
+export const softskills = [
+    "Quick learner",
     "Time management",
     "Communication",
     "Empathy",
@@ -187,5 +188,5 @@ import {
     "Self-learning",
     "Accountability",
     "Problem solving",
-    "Open-mindedness",
+    
   ];

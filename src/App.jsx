@@ -18,9 +18,10 @@ function App() {
       <Home />
       <SocialLink />
       <About />
+      <Experience />
       <Skill/>
       <Portfolio />
-      <Experience />
+     
       <Contact />
       <Footer/>
     </div>

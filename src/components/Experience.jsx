@@ -92,7 +92,7 @@ const Experience = () => {
                     <div>
                         <h3 className="mb-5  text-3xl">Experience</h3>
                         <div className=" shadow shadow-gray-600 rounded-lg py-5 px-3  ">
-                            <div className="flex gap-x-3 ">
+                            {/* <div className="flex gap-x-3 ">
                                 <div className="relative w-3 border-gray-500 border-l-2">
                                     <span className="absolute top-0 -left-[7px] w-3 h-3 inline-block rounded-full bg-gray-500"></span>
                                 </div>
@@ -115,7 +115,7 @@ const Experience = () => {
                                         </span>
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                             
                             <div className="flex gap-x-3 ">
                                 <div className="relative w-3 border-gray-500 border-l-2">

@@ -20,7 +20,8 @@ const About = () => {
                         About</p>
 
                     <p className='text-lg leading-10 text-white mt-5 dark:text-gray-400'>
-                        Full-Stack Web Developer with ability to learn and collaborate in rapidly changing environments and compositions. Worked through hours of bootcamp structure, learning JavaScript, NodeJs, ReactJs,NextJs, and TypeScript. Eager to tackle web development/design challenges to achieve lasting impacts on user experience..
+                        
+                        I'm a passionate full-stack web developer with a knack for adapting and collaborating in fast-paced settings. My journey through rigorous bootcamps, mastering JavaScript, Node.js, React.js, Next.js, and TypeScript, has fueled my eagerness to conquer web development and design hurdles. I'm driven to create lasting user experiences that make a real difference.
 
                     </p>
                     <div className='mt-5 2xl:mt-10 flex flex-wrap gap-5'>

@@ -85,22 +85,22 @@ import {
   export const skills = [
     {
       name: "ReactJs",
-      value: 70,
+      value: 25,
       icon: Reactjs,
     },
     {
       name: "NodeJs",
-      value: 5,
+      value: 0,
       icon: Nodejs,
     },
     {
       name: "NextJs",
-      value: 5,
+      value: 0,
       icon: Nextjs,
     },
     {
       name: "MongoDB",
-      value: 40,
+      value: 0,
       icon: Mongodb,
     },
     {
@@ -115,12 +115,12 @@ import {
     },
     {
       name: "JavaScript",
-      value: 88,
+      value: 50,
       icon: Javascript,
     },
     {
       name: "Python",
-      value: 50,
+      value: 40,
       icon: Python,
     },
   ];
